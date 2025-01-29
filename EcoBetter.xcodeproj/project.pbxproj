@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6D15F5442CC6C0870051ECDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D15F5272CC6C0840051ECDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D15F52E2CC6C0840051ECDB;
+			remoteInfo = EcoBetter;
+		};
+		6D15F54E2CC6C0870051ECDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D15F5272CC6C0840051ECDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D15F52E2CC6C0840051ECDB;
+			remoteInfo = EcoBetter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D15F52F2CC6C0840051ECDB /* EcoBetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoBetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D15F5432CC6C0870051ECDB /* EcoBetterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoBetterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D15F54D2CC6C0870051ECDB /* EcoBetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoBetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D489C6F2CE35B0700089B78 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6D15F5552CC6C0870051ECDB /* Exceptions for "EcoBetter" folder in "EcoBetter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6D15F52E2CC6C0840051ECDB /* EcoBetter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6D15F5312CC6C0840051ECDB /* EcoBetter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6D15F5552CC6C0870051ECDB /* Exceptions for "EcoBetter" folder in "EcoBetter" target */,
+			);
+			path = EcoBetter;
+			sourceTree = "<group>";
+		};
+		6D15F5462CC6C0870051ECDB /* EcoBetterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EcoBetterTests;
+			sourceTree = "<group>";
+		};
+		6D15F5502CC6C0870051ECDB /* EcoBetterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EcoBetterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D15F52C2CC6C0840051ECDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D15F5402CC6C0870051ECDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D15F54A2CC6C0870051ECDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D15F5262CC6C0840051ECDB = {
+			isa = PBXGroup;
+			children = (
+				6D15F5312CC6C0840051ECDB /* EcoBetter */,
+				6D15F5462CC6C0870051ECDB /* EcoBetterTests */,
+				6D15F5502CC6C0870051ECDB /* EcoBetterUITests */,
+				6D15F5302CC6C0840051ECDB /* Products */,
+				6D489C6F2CE35B0700089B78 /* MobileNetV2.mlmodel */,
+			);
+			sourceTree = "<group>";
+		};
+		6D15F5302CC6C0840051ECDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D15F52F2CC6C0840051ECDB /* EcoBetter.app */,
+				6D15F5432CC6C0870051ECDB /* EcoBetterTests.xctest */,
+				6D15F54D2CC6C0870051ECDB /* EcoBetterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D15F52E2CC6C0840051ECDB /* EcoBetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D15F5562CC6C0870051ECDB /* Build configuration list for PBXNativeTarget "EcoBetter" */;
+			buildPhases = (
+				6D15F52B2CC6C0840051ECDB /* Sources */,
+				6D15F52C2CC6C0840051ECDB /* Frameworks */,
+				6D15F52D2CC6C0840051ECDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6D15F5312CC6C0840051ECDB /* EcoBetter */,
+			);
+			name = EcoBetter;
+			packageProductDependencies = (
+			);
+			productName = EcoBetter;
+			productReference = 6D15F52F2CC6C0840051ECDB /* EcoBetter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D15F5422CC6C0870051ECDB /* EcoBetterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D15F55B2CC6C0870051ECDB /* Build configuration list for PBXNativeTarget "EcoBetterTests" */;
+			buildPhases = (
+				6D15F53F2CC6C0870051ECDB /* Sources */,
+				6D15F5402CC6C0870051ECDB /* Frameworks */,
+				6D15F5412CC6C0870051ECDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D15F5452CC6C0870051ECDB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6D15F5462CC6C0870051ECDB /* EcoBetterTests */,
+			);
+			name = EcoBetterTests;
+			packageProductDependencies = (
+			);
+			productName = EcoBetterTests;
+			productReference = 6D15F5432CC6C0870051ECDB /* EcoBetterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D15F54C2CC6C0870051ECDB /* EcoBetterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D15F55E2CC6C0870051ECDB /* Build configuration list for PBXNativeTarget "EcoBetterUITests" */;
+			buildPhases = (
+				6D15F5492CC6C0870051ECDB /* Sources */,
+				6D15F54A2CC6C0870051ECDB /* Frameworks */,
+				6D15F54B2CC6C0870051ECDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D15F54F2CC6C0870051ECDB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6D15F5502CC6C0870051ECDB /* EcoBetterUITests */,
+			);
+			name = EcoBetterUITests;
+			packageProductDependencies = (
+			);
+			productName = EcoBetterUITests;
+			productReference = 6D15F54D2CC6C0870051ECDB /* EcoBetterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D15F5272CC6C0840051ECDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					6D15F52E2CC6C0840051ECDB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					6D15F5422CC6C0870051ECDB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6D15F52E2CC6C0840051ECDB;
+					};
+					6D15F54C2CC6C0870051ECDB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 6D15F52E2CC6C0840051ECDB;
+					};
+				};
+			};
+			buildConfigurationList = 6D15F52A2CC6C0840051ECDB /* Build configuration list for PBXProject "EcoBetter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D15F5262CC6C0840051ECDB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6D15F5302CC6C0840051ECDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D15F52E2CC6C0840051ECDB /* EcoBetter */,
+				6D15F5422CC6C0870051ECDB /* EcoBetterTests */,
+				6D15F54C2CC6C0870051ECDB /* EcoBetterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D15F52D2CC6C0840051ECDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D15F5412CC6C0870051ECDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D15F54B2CC6C0870051ECDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D15F52B2CC6C0840051ECDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D15F53F2CC6C0870051ECDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D15F5492CC6C0870051ECDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D15F5452CC6C0870051ECDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D15F52E2CC6C0840051ECDB /* EcoBetter */;
+			targetProxy = 6D15F5442CC6C0870051ECDB /* PBXContainerItemProxy */;
+		};
+		6D15F54F2CC6C0870051ECDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D15F52E2CC6C0840051ECDB /* EcoBetter */;
+			targetProxy = 6D15F54E2CC6C0870051ECDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6D15F5572CC6C0870051ECDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EcoBetter/EcoBetter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcoBetter/Preview Content\"";
+				DEVELOPMENT_TEAM = JTCK4XV2GM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoBetter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ecobetter.EcoBetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D15F5582CC6C0870051ECDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EcoBetter/EcoBetter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EcoBetter/Preview Content\"";
+				DEVELOPMENT_TEAM = JTCK4XV2GM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcoBetter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ecobetter.EcoBetter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D15F5592CC6C0870051ECDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D15F55A2CC6C0870051ECDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D15F55C2CC6C0870051ECDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTCK4XV2GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ecobetter.EcoBetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoBetter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EcoBetter";
+			};
+			name = Debug;
+		};
+		6D15F55D2CC6C0870051ECDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTCK4XV2GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ecobetter.EcoBetterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcoBetter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EcoBetter";
+			};
+			name = Release;
+		};
+		6D15F55F2CC6C0870051ECDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTCK4XV2GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ecobetter.EcoBetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoBetter;
+			};
+			name = Debug;
+		};
+		6D15F5602CC6C0870051ECDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JTCK4XV2GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ecobetter.EcoBetterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcoBetter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D15F52A2CC6C0840051ECDB /* Build configuration list for PBXProject "EcoBetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D15F5592CC6C0870051ECDB /* Debug */,
+				6D15F55A2CC6C0870051ECDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D15F5562CC6C0870051ECDB /* Build configuration list for PBXNativeTarget "EcoBetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D15F5572CC6C0870051ECDB /* Debug */,
+				6D15F5582CC6C0870051ECDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D15F55B2CC6C0870051ECDB /* Build configuration list for PBXNativeTarget "EcoBetterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D15F55C2CC6C0870051ECDB /* Debug */,
+				6D15F55D2CC6C0870051ECDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D15F55E2CC6C0870051ECDB /* Build configuration list for PBXNativeTarget "EcoBetterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D15F55F2CC6C0870051ECDB /* Debug */,
+				6D15F5602CC6C0870051ECDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D15F5272CC6C0840051ECDB /* Project object */;
+}
